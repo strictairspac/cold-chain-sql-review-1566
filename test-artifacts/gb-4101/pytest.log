@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.2, pytest-9.2.0, pluggy-1.7.0 -- /tmp/venv4101/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/backend
+plugins: anyio-4.16.0
+collecting ... collected 6 items
+
+tests/test_payment_claims.py::test_installments_split_and_settle PASSED
+tests/test_payment_claims.py::test_two_payments_compete_for_one_bill PASSED
+tests/test_payment_claims.py::test_claim_collides_with_reversal 
+撞冲回覆盖到的结果分支: ['posted', 'rejected']
+PASSED
+tests/test_payment_claims.py::test_lost_receipt_retry PASSED
+tests/test_payment_claims.py::test_review_reads_same_snapshot PASSED
+tests/test_payment_claims.py::test_viewer_readonly_and_overdraft PASSED
+
+============================== 6 passed in 4.40s ===============================

@@ -1,1 +1,1 @@
-export const routes=[['samples','01','样本库'],['review','02','SQL 复核'],['history','03','运行历史'],['evidence','04','证据详情']];export const current=()=>location.hash.slice(1).split('/')[0]||'samples';
+export const routes=[['payments','01','到账款'],['bills','02','账单'],['claims','03','认领办理'],['review','04','复核视图']];export const current=()=>location.hash.slice(1).split('/')[0]||'payments';

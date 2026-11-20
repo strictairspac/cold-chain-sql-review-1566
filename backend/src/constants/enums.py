@@ -1,2 +1,6 @@
 ROLES=('admin','operator','viewer')
-STATUSES=('queued','running','passed','different','failed')
+CLAIM_STATUSES=('pending','posted','rejected')
+PAYMENT_STATUSES=('active','reversed')
+BILL_STATUSES=('open','settled')
+ALLOCATION_STATUSES=('active','reversed')
+REJECT_REASONS=('到账已被银行冲回','账单已结清','到账余额不足','账单欠款不足')
